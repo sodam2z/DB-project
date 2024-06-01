@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>이미지 분류 웹사이트</title>
+    <!-- TensorFlow.js 라이브러리 추가 -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"></script>
+    <!-- Pre-trained 모델을 위한 TensorFlow-models 라이브러리 추가 -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet@latest"></script>
+</head>
+<body>
+    <h1>이미지 분류 웹사이트</h1>
+    <input type="file" id="imageUpload" accept="image/*">
+    <h2>분류 결과</h2>
+    <div id="prediction"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
